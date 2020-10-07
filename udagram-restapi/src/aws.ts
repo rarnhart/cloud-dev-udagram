@@ -4,10 +4,7 @@ import {config} from './config/config';
 const c = config.default;
 
 //Configure AWS
-// var credentials = new AWS.SharedIniFileCredentials({profile: c.aws_profile});
-// AWS.config.credentials = credentials;
-
-if(c.aws_profile !== "DEPLOYED") {
+if (c.aws_profile !== "DEPLOYED") {
     AWS.config.credentials = new AWS.SharedIniFileCredentials({profile: 'default'});
 }
 
