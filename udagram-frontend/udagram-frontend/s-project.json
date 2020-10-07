@@ -1,11 +1,11 @@
 {
   "name": "udagram-frontend",
   "custom": {
-	"client": {
-		"bucketName": "udagram-frontend-${stage}-${region}"
-	}
+    "client": {
+      "bucketName": "udagram-frontend-${stage}-${region}"
+    }
   },
   "plugins": [
-	"serverless-client-s3"
+    "serverless-client-s3"
   ]
 }
