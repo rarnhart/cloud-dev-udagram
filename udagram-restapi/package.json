@@ -1,8 +1,8 @@
 {
-  "name": "udacity-c2-restapi",
+  "name": "udagram-restapi",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "./www/server.js",
   "engines": {
     "node": "12.18.3"
   },
@@ -16,7 +16,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Gabriel Ruttner",
+  "author": "Robert Arnhart",
   "license": "ISC",
   "dependencies": {
     "@types/bcrypt": "^3.0.0",
